@@ -1,9 +1,9 @@
-#Food delivery app in **JAVA**
-##PAO Project
+# Food delivery app in **JAVA**
+## PAO Project
 
 ---
 
-###Classes:
+### Classes:
 1. User:
     * User
     * Client(User)
@@ -23,7 +23,7 @@
    
 ---
 
-###Functionalities:
+### Functionalities:
 
 -[x] Adding a new client
 -[ ] Adding a new driver
@@ -35,4 +35,4 @@
 
 ---
 
-###UML Diagram(soon):
+### UML Diagram(soon):
