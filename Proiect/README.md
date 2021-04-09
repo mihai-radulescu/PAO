@@ -18,6 +18,9 @@
     
 4. Main:
     * Main
+   
+[//]: # (devider)
+
 ###Functionalities:
 
 -[x] Adding a new client
