@@ -18,8 +18,7 @@
     
 4. Main:
     * Main
-   
-[//]: # (devider)
+      <!---->
 
 ###Functionalities:
 
