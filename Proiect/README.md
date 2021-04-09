@@ -1,6 +1,8 @@
 #Food delivery app in **JAVA**
 ##PAO Project
 
+---
+
 ###Classes:
 1. User:
     * User
@@ -19,7 +21,7 @@
 4. Main:
     * Main
    
-[//]: # (devider)
+---
 
 ###Functionalities:
 
@@ -30,5 +32,7 @@
 -[x] Updating a menu
 -[ ] Creating an order
 -[ ] Requesting information about an order
+
+---
 
 ###UML Diagram(soon):
