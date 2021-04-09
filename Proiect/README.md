@@ -26,6 +26,7 @@
 
 ### Functionalities:
 
+
 -[x] Adding a new client
 -[ ] Adding a new driver
 -[ ] Adding a new restaurant
