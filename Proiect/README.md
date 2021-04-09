@@ -26,13 +26,13 @@
 
 ### Functionalities:
 
-   -[x] Adding a new client
-   -[ ] Adding a new driver
-   -[ ] Adding a new restaurant
-   -[x] Adding a menu for a restaurant
-   -[x] Updating a menu
-   -[ ] Creating an order
-   -[ ] Requesting information about an order
+   - [x] Adding a new client
+   - [ ] Adding a new driver
+   - [ ] Adding a new restaurant
+   - [x] Adding a menu for a restaurant
+   - [x] Updating a menu
+   - [ ] Creating an order
+   - [ ] Requesting information about an order
 
 ---
 
