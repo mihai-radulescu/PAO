@@ -18,7 +18,6 @@
     
 4. Main:
     * Main
-    
 ###Functionalities:
 
 -[x] Adding a new client
