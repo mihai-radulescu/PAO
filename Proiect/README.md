@@ -17,10 +17,8 @@
     * UserService
     
 4. Main:
-    * Main
+    * Main\n\n
 
-
-<!---->
 
 ###Functionalities:
 
