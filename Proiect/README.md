@@ -1,6 +1,8 @@
 #Food delivery app in **JAVA**
 ##PAO Project
 
+---
+
 ###Classes:
 1. User:
     * User
@@ -17,7 +19,9 @@
     * UserService
     
 4. Main:
-    * Main\n\n
+    * Main
+
+---
 
 
 ###Functionalities:
