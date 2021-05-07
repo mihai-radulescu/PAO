@@ -12,14 +12,14 @@ public class UserService {
 
     private List<Client> clientList;
     private List<Driver> driverList;
-    private List<Restaurant> restaurantList;
+    //private List<Restaurant> restaurantList;
 
     private static UserService instance = null;
 
     private UserService(){
         clientList = new ArrayList<>();
         driverList = new ArrayList<>();
-        restaurantList = new ArrayList<>();
+        //restaurantList = new ArrayList<>();
     }
 
     public static UserService getInstance() {
@@ -57,7 +57,7 @@ public class UserService {
         return this.driverList.get(i);
     }
 
-    ///Restaurants methods
+   /* ///Restaurants methods
     public void addRestaurant(Restaurant restaurant){
         restaurantList.add(new Restaurant(restaurant));
     }
@@ -69,5 +69,5 @@ public class UserService {
 
     public Restaurant getRestaurant(int i){
         return this.restaurantList.get(i);
-    }
+    }*/
 }
