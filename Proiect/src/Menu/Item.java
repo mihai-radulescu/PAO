@@ -4,12 +4,14 @@ import java.util.Objects;
 
 public class Item {
 
+    protected Integer id = null;
     protected String itemName;
     protected String description;
     protected Double price;
     protected String category;
 
-    public Item(String itemName, String description, Double price, String category) {
+    public Item(Integer id, String itemName, String description, Double price, String category) {
+        this.id = id;
         this.itemName = itemName;
         this.description = description;
         this.price = price;
@@ -17,6 +19,7 @@ public class Item {
     }
 
     public Item(Item item) {
+        id = this.getId();
         itemName = this.getItemName();
         description = this.getDescription();
         price = this.getPrice();
@@ -26,7 +29,8 @@ public class Item {
     @Override
     public String toString() {
         return "Item{" +
-                "itemName='" + itemName + '\'' +
+                "id=" + id +
+                ", itemName='" + itemName + '\'' +
                 ", description='" + description + '\'' +
                 ", price=" + price +
                 ", category='" + category + '\'' +
@@ -63,5 +67,13 @@ public class Item {
 
     public void setCategory(String category) {
         this.category = category;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
 }

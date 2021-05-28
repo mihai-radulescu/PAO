@@ -37,7 +37,7 @@ public class Read {
             e.printStackTrace();
         }
     }
-
+/*
     public static void readClientsCsv(){
         try(var in = new BufferedReader(new FileReader("src/Data/clients.csv"))){
             String line;
@@ -54,7 +54,7 @@ public class Read {
             e.printStackTrace();
         }
     }
-
+*/
     public static void readDriversCsv(){
         try(var in = new BufferedReader(new FileReader("src/Data/drivers.csv"))){
             String line;

@@ -8,7 +8,7 @@ import Menu.Order;
 
 public class Client extends User{
 
-    protected List<String> addresses = new ArrayList<>();
+    protected String addresses;
     protected List<Order> orders = new ArrayList<>();
 
     public Client(String name, String email, String phone) {
@@ -31,11 +31,11 @@ public class Client extends User{
                 '}';
     }
 
-    public List<String> getAddresses() {
+    public String getAddresses() {
         return addresses;
     }
 
-    public void setAddresses(List<String> addresses) {
+    public void setAddresses(String addresses) {
         this.addresses = addresses;
     }
 
@@ -46,7 +46,9 @@ public class Client extends User{
     public void setOrders(List<Order> orders) {
         this.orders = orders;
     }
-/*
+
+
+    /*
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

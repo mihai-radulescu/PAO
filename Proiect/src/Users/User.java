@@ -13,7 +13,6 @@ public class User {
         this.name = name;
         this.email = email;
         this.phone = phone;
-        this.registrationDate = LocalDate.now();
     }
 
     public User(Client client) {

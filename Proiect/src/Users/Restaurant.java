@@ -10,8 +10,6 @@ public class Restaurant extends User {
     protected String address;
     protected String program;
 
-    protected Menu menu = new Menu();
-
     public Restaurant(String name, String email, String phone) {
         super(name, email, phone);
     }
@@ -48,18 +46,4 @@ public class Restaurant extends User {
         this.program = program;
     }
 
-    public Menu getMenu() {
-        return menu;
-    }
-
-    public void setMenu(Menu menu) {
-        this.menu = menu;
-    }
-
-    public void showMenu(){
-        List<Item> mainCourse = this.menu.getMainCourse();
-
-        for(Item i : mainCourse)
-            System.out.println(i.toString() + "\n");
-    }
 }
